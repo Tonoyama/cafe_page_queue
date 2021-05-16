@@ -60,24 +60,28 @@ body{
 .main-content {
   background-color: rgb(214, 43, 214);
   /* 内側の余白 */
-  padding: 0px; 
+  padding: 50px; 
+  /* フォントの大きさ(100%は標準の大きさ) */
+  font-size: 200%;
+  border-radius: 20px;
+  box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 1), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
 }
 
 .flex-box {
-    background-color: rgb(255, 108, 108);
     /* 内側の余白 */
-    padding: 0px;
+    padding: 10px;
     /* 横並びで表示 */
     display: flex;
     /* 狭くなったとき、コンテンツを折り返す */
     flex-wrap: wrap;
     /* 中央寄せ */
-    justify-content:left;
+    justify-content:center;
+    line-height: 0.8;
 }
 
 .flex-item {
     /* 内側の余白 */
-    padding: 0px;
+    padding: 10px;
     /* 外側の余白 */
     margin: 10px;
     /* フォントの大きさ(100%は標準の大きさ) */
@@ -85,4 +89,11 @@ body{
     /* 幅の大きさ */
     width: 200px;
     background-color:  #19a0c9;
+    border-radius: 10px;
+    box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 1), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.minutes {
+  /* フォントサイズ　*/
+  font-size: 150%;
 }
