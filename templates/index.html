@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+
+<!-- 全体のメタデータ(設定)。設定なので、画面には表示されない。 -->
+<head>
+    <!-- 文字コード -->
+	<meta charset="utf-8">
+    <!-- デバイスに合わせて大きさを変える -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- タブのタイトル -->
+	<title>混雑度チェッカー</title>
+    <!-- CSSを持ってくる -->
+	<link rel="stylesheet" href="static/css/style.css" media="screen">
+</head>
+
+<!-- 画面上に表示される内容 -->
+<body>
+
+    <!-- J号館タイトル -->
+	<div class="title">
+		<h1>J号館１階食堂</h1>
+	</div>
+
+	<form method="post" class="main-content">推定人数：{{count1}}</form>
+	<div class="flex-box">
+		<form method="post" class="flex-item">推定人数：{{count1}}</form>
+		<form method="post" class="flex-item">推定人数：{{count1}}</form>
+		<form method="post" class="flex-item">推定人数：{{count1}}</form>
+	</div>
+
+
+	<!-- Z号館タイトル -->
+	<div class="title">
+		<h1>Z号館２階食堂</h1>
+	</div>
+
+    <form method="post" class="main-content">推定人数：{{count2}}</form>
+	<div class="flex-box">
+		<form method="post" class="flex-item">推定人数：{{count2}}</form>
+		<form method="post" class="flex-item">推定人数：{{count2}}</form>
+		<form method="post" class="flex-item">推定人数：{{count2}}</form>
+	</div>
+
+</body>
+</html>

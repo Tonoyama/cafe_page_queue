@@ -1,0 +1,88 @@
+/*---------------------------------
+
+  フォントの設定
+
+---------------------------------*/
+
+@font-face{
+  font-family: 'M PLUS Rounded 1c';
+  src: url('/static/fonts/MPLUSRounded1c-Regular.ttf');
+}
+
+/*---------------------------------
+
+  全体(body)のデザイン
+
+---------------------------------*/
+
+body{
+    /* 背景色 */
+    background-color: #eeeeee;
+    /* 文字を中央寄せ */
+    text-align: center;
+    /* フォント */
+    font-family: 'M PLUS Rounded 1c';
+}
+
+/*---------------------------------
+
+  メディアクエリ：
+  デバイスの横幅によって表示を変えられる
+
+---------------------------------*/
+
+@media screen and (min-width:769px){
+  /* PC, タブレット用 */
+}
+
+@media screen and (max-width: 768px){
+  /* スマホ用 */
+}
+
+/*---------------------------------
+
+  タイトルのデザイン
+
+---------------------------------*/
+
+.title {
+  background-color: #9cc147;
+  color: #eeeeee;
+}
+
+
+/*---------------------------------
+
+  コンテンツのデザイン
+
+---------------------------------*/
+
+.main-content {
+  background-color: rgb(214, 43, 214);
+  /* 内側の余白 */
+  padding: 0px; 
+}
+
+.flex-box {
+    background-color: rgb(255, 108, 108);
+    /* 内側の余白 */
+    padding: 0px;
+    /* 横並びで表示 */
+    display: flex;
+    /* 狭くなったとき、コンテンツを折り返す */
+    flex-wrap: wrap;
+    /* 中央寄せ */
+    justify-content:left;
+}
+
+.flex-item {
+    /* 内側の余白 */
+    padding: 0px;
+    /* 外側の余白 */
+    margin: 10px;
+    /* フォントの大きさ(100%は標準の大きさ) */
+    font-size: 100%;
+    /* 幅の大きさ */
+    width: 200px;
+    background-color:  #19a0c9;
+}
