@@ -16,12 +16,13 @@
 <!-- 画面上に表示される内容 -->
 <body>
 
-    <!-- J号館タイトル -->
-	<div class="title">
-		<h1>J号館１階食堂</h1>
-	</div>
 
-	<form method="post" class="main-content">{{count1}}分待ち</form>
+
+	<form method="post" class="main-content">
+		<div class="main-title">J号館食堂</div>
+		<div class="main-minutes">{{count1}}分待ち</div>
+		<div class="main-percentage">{{count1}}%</div>
+	</form>
 	<div class="flex-box">
 		<form method="post" class="flex-item">
 			<div>2人</div>
@@ -41,12 +42,12 @@
 	</div>
 
 
-	<!-- Z号館タイトル -->
-	<div class="title">
-		<h1>Z号館２階食堂</h1>
-	</div>
 
-    <form method="post" class="main-content">推定人数：{{count2}}</form>
+	<form method="post" class="main-content">
+		<div class="main-title">Z号館食堂</div>
+		<div class="main-minutes">{{count2}}分待ち</div>
+		<div class="main-percentage">{{count2}}%</div>
+	</form>
 	<div class="flex-box">
 		<form method="post" class="flex-item">
 			<div>2人</div>

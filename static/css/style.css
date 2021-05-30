@@ -58,13 +58,25 @@ body{
 ---------------------------------*/
 
 .main-content {
-  background-color: rgb(214, 43, 214);
+  background-color: #eeeeee;
   /* 内側の余白 */
-  padding: 50px; 
+  padding: 50px;
   /* フォントの大きさ(100%は標準の大きさ) */
   font-size: 200%;
   border-radius: 20px;
   box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 1), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main-title {
+  font-size: 80%;
+}
+
+.main-minutes {
+  font-size: 150%;
+}
+
+.main-percentage {
+  font-size: 80%;
 }
 
 .flex-box {
@@ -83,12 +95,12 @@ body{
     /* 内側の余白 */
     padding: 10px;
     /* 外側の余白 */
-    margin: 10px;
+    margin: 20px;
     /* フォントの大きさ(100%は標準の大きさ) */
     font-size: 100%;
     /* 幅の大きさ */
     width: 200px;
-    background-color:  #19a0c9;
+    background-color:  #eeeeee;
     border-radius: 10px;
     box-shadow: -10px -10px 20px 0px rgba(255, 255, 255, 1), 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
 }
